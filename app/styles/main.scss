@@ -3,90 +3,80 @@ $icon-font-path: "../bower_components/bootstrap-sass-official/assets/fonts/boots
 @import "bootstrap-sass-official/assets/stylesheets/_bootstrap.scss";
 // endbower
 
-.browsehappy {
-  margin: 0.2em 0;
-  background: #ccc;
-  color: #000;
-  padding: 0.2em 0;
-}
-
-/* Space out content a bit */
 body {
-  padding-top: 20px;
-  padding-bottom: 20px;
+  background: #003B60;
 }
 
-/* Everything but the jumbotron gets side spacing for mobile first views */
-.header,
-.marketing,
-.footer {
-  padding-left: 15px;
-  padding-right: 15px;
-}
-
-/* Custom page header */
-.header {
-  border-bottom: 1px solid #e5e5e5;
-
-  /* Make the masthead heading the same height as the navigation */
-  h3 {
-    margin-top: 0;
-    margin-bottom: 0;
-    line-height: 40px;
-    padding-bottom: 19px;
-  }
-}
-
-/* Custom page footer */
-.footer {
-  padding-top: 19px;
-  color: #777;
-  border-top: 1px solid #e5e5e5;
-}
-
-.container-narrow > hr {
-  margin: 30px 0;
-}
-
-/* Main marketing message and sign up button */
-.jumbotron {
-  text-align: center;
-  border-bottom: 1px solid #e5e5e5;
-  .btn {
-    font-size: 21px;
-    padding: 14px 24px;
-  }
-}
-
-/* Supporting marketing content */
-.marketing {
-  margin: 40px 0;
-  p + h4 {
-    margin-top: 28px;
-  }
-}
-
-/* Responsive: Portrait tablets and up */
-@media screen and (min-width: 768px) {
+#main_navigation {
+  position: fixed;
+  margin: 50px 0 0;
+  left: calc(50vw - 585px);
   .container {
-    max-width: 730px;
+    background: #ffffff;
   }
-
-  /* Remove the padding we set earlier */
-  .header,
-  .marketing,
-  .footer {
-    padding-left: 0;
-    padding-right: 0;
+  h1 {
+    @include make-sm-column(4);
   }
-
-  /* Space out the masthead */
-  .header {
-    margin-bottom: 30px;
+  ul {
+    @include make-sm-column(8);
+    float: right;
+    text-align: right;
+    li {
+      list-style: none;
+      display: inline-block;
+    }
   }
+}
 
-  /* Remove the bottom border on the jumbotron for visual effect */
-  .jumbotron {
-    border-bottom: 0;
+.midnightHeader {
+  &.default {
+    background: #ffffff;
+  }
+  &.first {
+    background: #009900;
+    a {
+      color: #222222;
+    }
+  }
+  &.second {
+    background: #222222;
+    h1 {
+      color: #c3325f;
+    }
+  }
+  &.third {
+    background: #843534;
+    h1 {
+      color: #111122;
+    }
+    a {
+      color: #e1e100;
+    }
+  }
+  &.fourth {
+    background: #c3325f;
+    h1 {
+      color: #002339;
+    }
+    a {
+      color: #5E0004;
+    }
+  }
+  &.fifth {
+    background: #d58512;
+    a {
+      color: #cc0000;
+    }
+  }
+}
+
+section {
+  padding: 0 25% 100px;
+  color: #0095F4;
+  &:first-of-type {
+    padding-top: 300px;
+  }
+  &:last-of-type {
+    margin-bottom: 3000px;
   }
 }
