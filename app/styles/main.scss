@@ -12,7 +12,7 @@ body {
   margin: 50px 0 0;
   left: calc(50vw - 585px);
   .container {
-    background: #ffffff;
+    border-radius: 5px;
   }
   h1 {
     @include make-sm-column(4);
@@ -21,31 +21,44 @@ body {
     @include make-sm-column(8);
     float: right;
     text-align: right;
+    margin-top: 30px;
     li {
       list-style: none;
       display: inline-block;
+      margin-left: 30px;
+      a {
+        font-size: 16px;
+      }
     }
   }
 }
 
 .midnightHeader {
   &.default {
-    background: #ffffff;
+    .container {
+      background: #ffffff;
+    }
   }
   &.first {
-    background: #009900;
+    .container {
+      background: #009900;
+    }
     a {
       color: #222222;
     }
   }
   &.second {
-    background: #222222;
+    .container {
+      background: #222222;
+    }
     h1 {
       color: #c3325f;
     }
   }
   &.third {
-    background: #843534;
+    .container {
+      background: #843534;
+    }
     h1 {
       color: #111122;
     }
@@ -54,18 +67,22 @@ body {
     }
   }
   &.fourth {
-    background: #c3325f;
+    .container {
+      background: #c3325f;
+    }
     h1 {
       color: #002339;
     }
     a {
-      color: #5E0004;
+      color: #ffffff;
     }
   }
   &.fifth {
-    background: #d58512;
+    .container {
+      background: #d58512;
+    }
     a {
-      color: #cc0000;
+      color: #aa0000;
     }
   }
 }
