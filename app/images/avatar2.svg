@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="140px" height="140px" viewBox="0 0 140 140" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.2.1 (9971) - http://www.bohemiancoding.com/sketch -->
+    <title>avatar 2</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-2" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="avatar-2" sketch:type="MSLayerGroup" transform="translate(-2.000000, -2.000000)">
+            <rect id="Rectangle-1" fill-opacity="0" fill="#FFFFFF" sketch:type="MSShapeGroup" x="0" y="0" width="145" height="145"></rect>
+            <circle id="head" stroke="#000000" stroke-width="6" stroke-linecap="round" fill="#FFFFFF" sketch:type="MSShapeGroup" cx="72" cy="72" r="64"></circle>
+            <g id="eyes" transform="translate(62.031019, 56.652880)" fill="#000000" sketch:type="MSShapeGroup">
+                <ellipse id="left-eye" cx="4.78581979" cy="11.7651403" rx="4.78581979" ry="7.17872969"></ellipse>
+                <ellipse id="right-eye" cx="60.620384" cy="7.17872969" rx="4.78581979" ry="7.17872969"></ellipse>
+            </g>
+            <path d="M26.0376662,77.0923191 C26.0376662,77.0923191 24.2429838,72.2067947 20.155096,72.2067947 C16.0672083,72.2067947 14.8707533,75.6964549 14.8707533,81.379616 C14.8707533,87.062777 15.8677991,96.0361891 21.9497784,96.0361891 C28.0317578,96.0361891 27.6329394,89.655096 27.6329394,86.6639586" id="ear" stroke="#000000" stroke-width="4" stroke-linecap="round" sketch:type="MSShapeGroup"></path>
+            <g id="eyebrows" transform="translate(48.072378, 44.887740)" stroke="#000000" stroke-width="7" stroke-linecap="round" sketch:type="MSShapeGroup">
+                <path d="M0.099704579,15.7533235 C0.099704579,15.7533235 0.797636632,6.08197931 11.2666174,7.07902503 C21.7355982,8.07607075 39.3833087,12.1639588 39.3833087,12.1639588" id="left-eyebrow"></path>
+                <path d="M55.3360414,10.4689808 C55.3360414,10.4689808 76.7725258,0.099704579 82.9542097,0.099704579 C89.1358936,0.099704579 89.534712,5.18463811 89.534712,5.18463811" id="right-eyebrow"></path>
+            </g>
+            <path d="M91.2444609,78.1890694 C91.2444609,78.1890694 94.1676066,83.6728213 99.751063,83.6728213 C105.334519,83.6728213 108.991875,79.1861152 108.194239,74.7991137" id="nose" stroke="#000000" stroke-width="5" stroke-linecap="round" sketch:type="MSShapeGroup"></path>
+            <path d="M93.1388479,108.000739 C93.1388479,108.000739 94.2355982,114.980059 102.511078,114.980059 C110.786558,114.980059 115.073855,106.305761 115.073855,100.822009" id="mouth" stroke="#000000" stroke-width="3" stroke-linecap="round" sketch:type="MSShapeGroup"></path>
+            <g id="facial-hair" transform="translate(68.611521, 88.358936)" stroke="#000000" stroke-width="7" stroke-linecap="round" sketch:type="MSShapeGroup">
+                <path d="M0.099704579,41.2776957 C0.099704579,41.2776957 12.4630724,0.199409158 42.4741507,0.199409158 C66.3110468,0.199409158 63.2127031,21.9350074 63.2127031,21.9350074" id="moustache"></path>
+                <path d="M35.7939439,33.0022157 C35.7939439,33.0022157 35.7939439,43.570901 38.4859675,43.8700148" id="fly"></path>
+            </g>
+        </g>
+    </g>
+</svg>
